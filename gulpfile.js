@@ -10,6 +10,8 @@
  *                      |-- images/
  */
 
+const gulp = require('gulp');
+
 const plumber = require('gulp-plumber');
 const rename = require('gulp-rename');
 const del = require('del');
